@@ -1,0 +1,345 @@
+<?
+    if(isset($_GET["utm_campaign"]))setcookie("utm_campaign",$_GET["utm_campaign"],time()+3600*24*30,"/");
+    if(isset($_GET["utm_content"])) setcookie("utm_content",$_GET["utm_content"],time()+3600*24*30,"/");
+    if(isset($_GET["utm_medium"])) setcookie("utm_medium",$_GET["utm_medium"],time()+3600*24*30,"/");
+    if(isset($_GET["utm_source"])) setcookie("utm_source",$_GET["utm_source"],time()+3600*24*30,"/");
+    if(isset($_GET["utm_term"])) setcookie("utm_term",$_GET["utm_term"],time()+3600*24*30,"/");
+?>
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T6WJRD4');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3849965141793179');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=3849965141793179&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Коттеджи бизнес-класса в Сочи - Nedvex</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6WJRD4" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <a href="index.html" class="logo">
+            <img src="images/icons/logo.svg" alt="">
+          </a>
+          <a href="https://yandex.ru/maps/-/CCUy62D0dC" class="header__adress" target="_blank">
+            Морской переулок 1/1А
+          </a>
+          <a href="tel:88006009763" class="header__phone">8 (800) 600 97 63</a>
+          <div class="header__contacts">
+            <a href="tel:88006009763" class="header__phone">8 (800) 600 97 63</a>
+            <a href="https://yandex.ru/maps/-/CCUy62D0dC" class="header__adress" target="_blank">
+              Морской переулок 1/1А
+            </a>
+          </div>
+        </div>
+        <div class="header__content">
+          <div class="header__content-top">
+            <div class="header__content-item">
+              <img src="images/icons/money.svg" alt="">
+              <p class="header__content-item-text">
+                От 16 000 000 ₽
+              </p>
+            </div>
+            <div class="header__content-item">
+              <img src="images/icons/contract.svg" alt="">
+              <p class="header__content-item-text">
+                От официального отдела продаж
+              </p>
+            </div>
+          </div>
+          <h1 class="header__title">
+            Коттеджи бизнес-класса
+            в&nbsp;Сочи для жизни и&nbsp;инвестиций
+            <span>с&nbsp;доходностью от&nbsp;30% годовых</span>
+          </h1>
+          <div class="header__content-box">
+            <div class="header__content-box-item">
+              <p class="header__content-box-text">
+                Выгоднее, чем апартаменты и&nbsp;квартиры <span>по&nbsp;цене за&nbsp;м<sup>2</sup></span>
+              </p>
+            </div>
+            <div class="header__content-box-item">
+              <p class="header__content-box-text">
+                С&nbsp;приватной территорией <span>и&nbsp;современным благоустройством</span>
+              </p>
+            </div>
+            <div class="header__content-box-item">
+              <p class="header__content-box-text">
+                С&nbsp;панорамным видом <span>на&nbsp;море и&nbsp;горы</span>
+              </p>
+            </div>
+          </div>
+          <button class="header__button">
+            <span class="btn-text">
+              ПОЛУЧИТЬ ПЕРСОНАЛИЗИРОВАННОЕ ПРЕДЛОЖЕНИЕ
+            </span>
+            <div class="flare"></div>
+          </button>
+          <div class="header__bottom">
+            <div class="header__bottom-box">
+              <img src="images/icons/paper.svg" alt="">
+              <span>5</span>
+            </div>
+            <p class="header__bottom-text">
+              Получите <span>индивидуальное предложение,</span> ответив на&nbsp;5&nbsp;вопросов
+            </p>
+            <img src="images/icons/arrow.svg" alt="" class="header__bottom-arrow">
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="town">
+        <div class="container">
+          <h2 class="town__title">
+            Коттеджные поселки <span>Nedvex Consulting</span>
+          </h2>
+          <div class="town__inner">
+            <div class="town__item">
+              <img src="images/town/1.jpg" alt="">
+              <h4 class="town__item-title">
+                Олимпик 2
+              </h4>
+              <div class="town__box">
+                <img src="images/icons/monet.svg" alt="">
+                <p class="town__price">Цена</p>
+                <p class="town__num">от 26 000 000 ₽</p>
+              </div>
+              <div class="town__region-box">
+                <img src="images/town/mark.svg" alt="">
+                <p class="town__region-text">
+                  Район Адлерский
+                </p>
+              </div>
+            </div>
+            <div class="town__item">
+              <img src="images/town/2.jpg" alt="">
+              <h4 class="town__item-title">
+                Woodland
+              </h4>
+              <div class="town__box">
+                <img src="images/icons/monet.svg" alt="">
+                <p class="town__price">Цена</p>
+                <p class="town__num">от 24 000 000 ₽</p>
+              </div>
+              <div class="town__region-box">
+                <img src="images/town/mark.svg" alt="">
+                <p class="town__region-text">
+                  Район Дагомыс
+                </p>
+              </div>
+            </div>
+            <div class="town__item">
+              <img src="images/town/3.jpg" alt="">
+              <h4 class="town__item-title">
+                Monteville Village
+              </h4>
+              <div class="town__box">
+                <img src="images/icons/monet.svg" alt="">
+                <p class="town__price">Цена</p>
+                <p class="town__num">от 20 000 000 ₽</p>
+              </div>
+              <div class="town__region-box">
+                <img src="images/town/mark.svg" alt="">
+                <p class="town__region-text">
+                  Район Краево-Армянск
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="town__bottom-inner">
+          <div class="town__bottom--decor">
+            <div class="container">
+              <div class="town__bottom">
+                <form id="form" action="submit.php" class="form" novalidate autocomplete="off">
+                  <h3 class="form__title">
+                    Получите консультацию
+                    и&nbsp;все&nbsp;материалы по&nbsp;коттеджным поселкам <span>Nedvex Consulting</span>
+                  </h3>
+                  <div class="form__box">
+                    <div class="form__box-content">
+                      <div class="form__box-title">
+                        Отправьте заявку
+                      </div>
+                      <p class="form__box-text">
+                        на подбор коттеджей прямо сейчас
+                      </p>
+                      <div class="page__item">
+                        <span class="page__error page__error_hidden ">Некорректро введено имя</span>
+                        <input onkeypress="return /[a-z,а-я]/i.test(event.key)" minlength="2" name="name"
+                          class="page__input page__border" placeholder="Введите ваше имя" type="text" id="name"
+                          required>
+                      </div>
+                      <div class="page__item">
+                        <span class="page__error page__error_hidden">Некорректро введен номер телефона</span>
+                        <input id="phone" class="page__input page__border" name="phone"
+                          placeholder="Введите ваш телефон" type="text" required>
+                      </div>
+                      <button type="submit" class="form__form-btn">
+                        <span class="btn-text">
+                          ОТПРАВИТЬ ЗАЯВКУ
+                        </span>
+                        <div class="flare"></div>
+                      </button>
+                      <p class="town__policy">
+                        Отправляя свои данные, вы&nbsp;соглашаетесь с&nbsp;<a href="https://nedvex.ru/privacy">политикой
+                          конфиденциальности</a>
+                      </p>
+                    </div>
+
+                  </div>
+                </form>
+                <img src="images/town/wooman.png" alt="" class="town__bottom-image">
+                <div class="town__bottom-agent">
+                  <div class="town__bottom-agent-content">
+                    <p class="town__bottom-agent-name">
+                      Екатерина Лышова
+                    </p>
+                    <p class="town__bottom-agent-prof">
+                      Руководитель отдела продаж
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a href="index.html" class="logo">
+            <img src="images/icons/logo.svg" alt="">
+          </a>
+          <a href="https://nedvex.ru/privacy" class="footer__policy">
+            Политика конфиденциальности
+          </a>
+          <a href="tel:88006009763" class="footer__phone">8 (800) 600 97 63</a>
+          <div class="header__contacts">
+            <a href="tel:88006009763" class="header__phone">8 (800) 600 97 63</a>
+            <a href="https://yandex.ru/maps/-/CCUy62D0dC" class="header__adress" target="_blank">
+              Морской переулок 1/1А
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="quiz">
+      <div class="quiz__inner">
+        <a href="#" class="quiz__close">
+          <img src="images/icons/close.svg" alt="">
+        </a>
+        <div class="quiz__content">
+          <div class="quiz__text">
+            <span>Ответьте на&nbsp;5&nbsp;вопросов,</span> и&nbsp;мы&nbsp;отправим вам персонализированное предложение
+          </div>
+          <div class="quiz__progres-box">
+            <div class="quiz__progres" style="width: 20%;">
+            </div>
+            <div class="quiz__progres-text">
+              Вопрос <span class="quiz__pregress-num">1</span> из 5
+            </div>
+          </div>
+          <form action="" class="quiz__form">
+            <div class="quiz__form-box">
+              <div class="quiz__form-question">
+                В&nbsp;каких целях планируете приобретение коттеджа?
+              </div>
+              <label class="quiz__form-label">
+                <input class="quiz__form-radio" type="radio" name="for" checked>
+                <span class="quiz__form-radio-fake"></span>
+
+                <span class="quiz__form-text">Для жизни и отдыха</span>
+              </label>
+              <label class="quiz__form-label">
+                <input class="quiz__form-radio" type="radio" name="for">
+                <span class="quiz__form-radio-fake"></span>
+                <span class="quiz__form-text">Для инвестиций</span>
+              </label>
+            </div>
+          </form>
+          <button class="quiz__next">
+            <div class="btn-text">
+              СЛЕДУЮЩИЙ ВОПРОС
+            </div>
+            <div class="flare"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $("#form").submit(function (event) {
+        event.preventDefault();
+        var str = $(this).serialize();
+        var test = checkForm();
+        if (test) {
+          $.ajax({
+            type: "POST",
+            url: "submit.php",
+            data: str,
+            success: function (msg) {
+              if (msg == 'OK') {
+                console.log("send")
+                location.href = 'thank.html'
+              } else {
+                console.log("fail")
+              }
+            }
+          });
+        }
+        return false;
+      });
+    });
+  </script>
+</body>
+
+</html>
